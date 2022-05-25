@@ -1,0 +1,94 @@
+body {
+  background-color: #18181b;
+  font: normal 1em/1.38 'Manrope Bold';
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  float: left;
+  width: 22%;
+  min-width: 286px;
+  height: 358px;
+  min-height: 358px;
+  margin: 111px 0 0 38.92308%;
+  border-radius: 12px;
+  background-color: rgb(46, 46, 48);
+}
+
+.element {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin: 23px 0 0 42.8157799999%;
+  border-radius: 12px;
+  background: url('../images/locked_1f512.png') rgb(63, 63, 68);
+  background-repeat: no-repeat;
+  background-size: 32px 32px;
+  background-position: center center;
+}
+
+.text {
+  float: left;
+  clear: both;
+}
+
+._button {
+  display: block;
+  float: left;
+  clear: both;
+  min-width: 169px;
+  height: 29px;
+  margin-left: 18.11626%;
+  border-radius: 3px;
+  background-color: rgb(63, 63, 68);
+  font-size: 1em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-1 {
+  margin-left: 43.17089%;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  font-family: 'Manrope Regular';
+  font-size: 1em;
+  text-align: center;
+  color: rgb(226, 226, 226);
+}
+
+.container ._button-1,
+.container ._button-2 {
+  width: 65.9766763848%;
+  margin-top: 11px;
+}
+
+.container ._button-3,
+.container ._button-4 {
+  width: 65.9746503496%;
+  margin-top: 11px;
+}
+
+.container ._button-5 {
+  width: 65.9746503496%;
+  margin-top: 8px;
+}
+
+@media(max-width: 600px) {
+  .container {
+    margin-top: 117px;
+    margin-left: 25.75%;
+  }
+}
+
+@media(max-width: 400px) {
+  body {
+    font-size: 1em;
+  }
+
+  .container {
+    margin-left: 14.19922%;
+  }
+}
